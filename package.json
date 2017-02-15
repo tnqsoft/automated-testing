@@ -1,0 +1,18 @@
+{
+  "name": "testlab1",
+  "version": "1.0.0",
+  "description": "Test Lab With Selenium",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./features/step-definitions -p ./features/page-objects -o ./features/shared-objects -r ./features/reports"
+  },
+  "author": "Nguyen Nhu Tuan <tuanquynh0508@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.27.3",
+    "selenium-webdriver": "^3.0.1"
+  },
+  "devDependencies": {
+    "selenium-cucumber-js": "^1.3.4"
+  }
+}
